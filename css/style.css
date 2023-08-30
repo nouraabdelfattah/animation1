@@ -1,0 +1,180 @@
+
+body{
+    background-color: rgb(101, 175, 244);
+}
+
+.header{
+    width: 50%;
+    margin: auto;
+}
+.title{
+    width: 50%;
+    overflow: hidden;
+    margin: auto;
+  
+    text-align: center;
+}
+h1{
+    float: left;
+    margin: auto;
+    text-align: center;
+    margin-left:35px ;
+    animation-name: change0;
+    animation-duration: 1s;
+    color:rgb(9, 63, 114); 
+    margin-top: 30px;
+    animation-fill-mode: forwards;
+}
+.steady{
+    animation-delay: 1s;
+    animation-name: change1;
+}
+.go{
+    animation-delay: 2s;
+    animation-name: change11;
+}
+@keyframes change0{
+    0%{
+        margin-top: 30px;
+    }
+    50%{
+        margin-top: 20px;
+     
+    }
+    100%{
+        margin-top: 30px;
+        color: rgb(118, 1, 1);
+    }
+}
+@keyframes change1{
+    0%{
+        margin-top: 30px;
+    }
+    50%{
+        margin-top: 20px;
+    }
+    100%{
+        margin-top: 30px;
+        color:  rgb(160, 128, 0);
+    }
+}
+@keyframes change11{
+    0%{
+        margin-top: 30px;
+    }
+    50%{
+        margin-top: 20px;
+    }
+    100%{
+        margin-top: 30px;
+        color: rgb(8, 129, 1);;
+    }
+}
+/* /////////////////////////////////////////////// */
+img{
+    width: 100px;
+    height: 100px;
+    
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    display: block;
+    position: absolute;
+    animation-timing-function: ease-out;
+}
+.img1{
+    animation-delay: 3s;
+    margin-top: 20px;
+    animation-name: change2;
+}
+.img2{
+    width: 60px;
+    height: 60px;
+    right: 0;
+    margin-top: 105px;
+    animation-name: change3;
+    animation-delay: 7s;
+}
+.img3{
+    width: 80px;
+    height: 80px;
+    margin-top: 170px;
+    animation-name: change4;
+    animation-delay: 11s;
+}
+.img4{
+    right: 0;
+    width: 70px;
+    height: 7%;
+    margin-top: 255px;
+    animation-name: change5;
+    animation-delay: 15s;
+}
+.img5{
+    margin-top: 370px;
+    animation-name: change6;
+    animation-delay: 19s;
+}
+.img6{
+
+    right: 0;
+    margin-top: 475px;
+    animation-name: change7;
+    animation-delay: 23s;
+    
+}
+
+@keyframes change2{
+    0%{
+left: 0;
+    }
+     
+100%{
+    left: 1400px;
+}
+}
+@keyframes change3{
+    0%{
+right: 0;
+    }
+     
+100%{
+    right: 1410px;
+   
+}
+}
+@keyframes change4{
+    0%{
+left: 0;
+    }
+     
+100%{
+    left: 1410px;
+}
+}
+@keyframes change5{
+    0%{
+right: 0;
+    }
+     
+100%{
+    right: 1410px;
+}
+}
+@keyframes change6{
+    0%{
+left: 0;
+    }
+     
+100%{
+    left: 1410px;
+}
+}
+@keyframes change7{
+    0%{
+right: 0;
+    }
+     
+100%{
+    right: 1390px;
+}
+}
